@@ -1,0 +1,55 @@
+    body{
+        background-color: rgb(242, 240, 240);
+    }
+
+    .card{
+            width: 640px;
+            margin: 50px auto;
+            background-color: whitesmoke;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 15px;
+            text-align: left;
+    }
+
+    .badge{
+        width: 60px;
+        padding: 5px;
+    }
+
+
+    .btn{
+        width: 60%;
+        margin: 5px auto;
+        padding: 10px;
+        color:white;
+        border-radius: 5px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .buttons{
+        display: flex;
+        gap: 15px;
+        width: 100%;
+        margin: 20px auto;
+        padding: 8px;
+        color:white;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .level{
+        width: 60%;
+        margin: 5px auto;
+        padding: 10px;
+        color:white;
+        border-radius: 5px;
+        border: 2px solid #4caf50;
+        text-align: center;
+        margin-top: 20px;
+        background-color: #4caf50;
+    }
+    .level:hover{
+        background-color: #27612a;
+    }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Level 6 - Conditionals</title>
+  <link rel="stylesheet" href="lvl6.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="badge">Level 6</div> 
+  <h2>Conditionals: Pick the Correct Door</h2>
+  <p>Click a door. Only one is correct. Use if / else.</p>
+
+  <div class="door-row">
+    <button class="door door1" onclick="checkDoor(1)">🚪 Door 1</button>
+    <button class="door door2" onclick="checkDoor(2)">🚪 Door 2</button>
+    <button class="door door3" onclick="checkDoor(3)">🚪 Door 3</button>
+  </div>
+
+  <div id="result" class="result-box">
+    Choose a door to see the result.
+  </div>
+
+  <hr>
+
+  <div class="btn-row">
+    <button class="back-btn" onclick="location.href='lvl5.html'">← Back</button>
+    <button class="restart-btn" onclick="location.href='lvl1.html'">⟳ Restart (Level 1)</button>
+  </div>
+</div>
+
+<script src="lvl6.js"></script>
+
+</body>
+</html>

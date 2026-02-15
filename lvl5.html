@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Level 5 - Counter</title>
+  <link rel="stylesheet" href="lvl5.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="badge">Level 5</div> 
+  <h2>Counter: Coins</h2>
+  <p>Use + and - buttons. Coins cannot go below 0.</p>
+
+  <div class="counter-box">
+    <button class="minus-btn" onclick="decrease()">-1</button>
+    <h3 id="coinDisplay">Coins: 0</h3>
+    <button class="plus-btn" onclick="increase()">+1</button>
+  </div>
+
+  <p>Keep clicking and take a screenshot when coins changed.</p>
+
+  <hr>
+
+  <div class="btn-row">
+    <button class="back-btn" onclick="location.href='lvl4.html'">Back</button>
+    <button class="next-btn" onclick="location.href='lvl6.html'">Next Level</button>
+  </div>
+</div>
+
+<script src="lvl5.js"></script>
+</body>
+</html>

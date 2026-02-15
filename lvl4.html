@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Level 4 - Form Validation</title>
+  <link rel="stylesheet" href="lvl4.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="badge">Level 4</div> 
+  <h2>Form Validation</h2>
+  <p>Enter a name. Empty = error, filled = success.</p>
+
+  <input type="text" id="heroName" placeholder="Type your name...">
+  <button class="submit-btn" onclick="validateForm()">Submit Name</button>
+
+  <div id="message" class="message"></div>
+
+  <div class="btn-row">
+    <button class="back-btn" onclick="location.href='lvl3.html'">Back</button>
+    <button class="next-btn" onclick="location.href='lvl5.html'">Next Level</button>
+  </div>
+</div>
+
+<script src="lvl4.js"></script>
+</body>
+</html>
